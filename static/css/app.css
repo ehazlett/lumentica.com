@@ -1,4 +1,22 @@
+body {
+  background-color: #f0f0f0;
+  padding-top: 50px;
+}
+div.hero-unit {
+  border: 1px solid #c5c5c5;
+  background-color: #dedede;
+}
+div.content {
+  background-color: #f1f1f1;
+  margin: 0 20px 30px 20px;
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+}
+div.section-header {
+  font-weight: bold;
+}
 footer {
+  color: #a1a1a1;
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;

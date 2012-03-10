@@ -104,7 +104,9 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 CMS_TEMPLATES = (
-    ('header_3_col.html', 'Primary header with 3 columns'),
+    ('standard_page.html', 'Standard page'),
+    ('header_2_col.html', 'Marketing header with 2 columns'),
+    ('header_3_col.html', 'Marketing header with 3 columns'),
 )
 
 ROOT_URLCONF = 'urls'
@@ -131,6 +133,7 @@ INSTALLED_APPS = (
     'cms.plugins.file',
     'cms.plugins.snippet',
     'cms.plugins.googlemap',
+    'cms.plugins.twitter',
     'sekizai',
 )
 

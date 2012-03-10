@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load cms_tags sekizai_tags %}
+
+{% block title %}
+<title>Lumentica :: {{ request.current_page.get_title }}</title>
+{% endblock %}
+
+{% block base_content %}
+  {% cms_toolbar %}
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <p>{% placeholder content %}</p>
+      </div>
+    </div>
+  </div> <!-- /container -->
+{% endblock %}
