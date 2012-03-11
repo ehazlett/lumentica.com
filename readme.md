@@ -4,11 +4,11 @@ This is the app for the lumentica.com site.  (Built using DjangoCMS).
 
 Setup (using virtualenvwrapper)
 ---------------------------------
-`mkvirtualenv lumentica`
-`pip install -r requirements.txt`
-`python manage.py syncdb --all`
-`python manage.py migrate --fake`
-`python manage.py runserver` 
+* `mkvirtualenv lumentica`
+* `pip install -r requirements.txt`
+* `python manage.py syncdb --all`
+* `python manage.py migrate --fake`
+* `python manage.py runserver` 
 
 This will create the virtual environment, setup the database (default is sqlite), and start a dev server on http://localhost:8000/
 
